@@ -1,0 +1,293 @@
+/**********************
+	   BASE STYLES
+**********************/
+
+body {
+	background-color: #ffffff;
+	font-family: 'Open Sans', sans-serif;
+	width: 1400px;
+}
+
+header {
+	background-image: url('../img/working.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 800px;
+	overflow: auto;
+	padding: 1px;
+}
+
+.headings {
+	float: left;
+	margin-top: 20px;
+	margin-left: 60px;
+}
+
+.navbar {	
+	clear: both;
+}
+
+/**********************
+	    HEADINGS
+**********************/
+
+h1 {
+	font-family: 'Libre Baskerville', serif;
+	font-size: 45pt;
+	margin: 50px 0px 30px 50px;	
+}
+
+h2 {
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 400;
+	margin-left: 50px;	
+	width: 500px;
+}
+
+h3 {
+	font-family: 'Libre Baskerville', serif;
+	font-weight: 700;
+	text-align: center;
+}
+
+#work h3 {
+	padding-bottom: 100px;
+}
+
+#work h5, #contact h5 {
+	margin-bottom: 0px;
+	padding-bottom: 10px;
+	text-align: center;
+}
+
+#about h5, #contact h5 {
+	color: #ffffff;
+}
+
+.content h3 {
+	padding-bottom: 20px;
+}
+
+#contact h3, h5 {
+	padding-bottom: 20px;
+}
+
+#contact ul {
+	margin-right: 30px;
+}
+
+/**********************
+	    IMAGES
+**********************/
+
+img {
+	border: 5px solid #ffffff;
+}
+
+li img {
+	border: 0px;
+	border-radius: 50%
+}
+
+/**********************
+	     LINKS
+**********************/
+
+a {
+	color: black;
+	text-decoration: none;
+}
+
+#contact a {
+	color: #ffffff;
+}
+
+li a:visited {
+	color: black;
+}
+
+li a:hover {
+	color: #ff654a;
+}
+
+
+
+a:hover .thumbnail {
+	border: 5px solid #ff654a;
+	border-radius: 50%
+}
+
+#contact a:hover {
+	color: black;
+}
+
+/**********************
+	    LISTS
+**********************/
+
+nav ul {
+	list-style-type: none;
+	margin-left: 1000px;
+	margin-top: 40px;
+}
+
+nav li {
+	color: black;
+	display: inline;
+	padding: 25px 0px 25px 20px;	
+}
+
+ul {
+	list-style-type: none;
+}
+
+li {
+	border-radius: 50%;
+	display: inline;	
+	padding: 20px;
+}	
+
+/**********************
+	  PARAGRAPHS
+**********************/
+
+.content p {
+	font-size: 16px;
+	line-height: 30px;
+	margin-left: 440px;
+	margin-top: 30px;
+	text-align: center;
+	width: 500px;	
+}
+
+#work p {
+	color: #999999;
+	font-size: 12px;
+	margin-top: 0px;
+	text-align: center;
+}
+
+#contact p {
+	color: #ffffff;
+	font-size: 14px;
+	line-height: 24px;
+	text-align: center;
+}
+
+footer p {
+	color: #ffffff;
+	font-size: 12px;
+	letter-spacing: 4px;
+	padding-top: 4px;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+/**********************
+	    CLASSES
+**********************/
+
+.full-width {	
+	width: 1400px;
+}
+
+.third-width {
+	float: left;
+	width: 380px;
+}
+
+/***************   ABOUT CLASS  ***************/
+
+.thumbnail {
+	height: 220px;	
+	width: 380px;
+}
+
+.content {
+	text-align: center;
+}
+
+/**************   CONTACT CLASS  **************/
+
+.contact .third-width {
+	/*margin-left: 100px;*/
+	margin: auto;
+}
+
+/**********************
+	      IDS
+**********************/
+
+#name {
+	color: #ff654a;
+	font-family: 'Great Vibes', cursive;
+	font-size: 64pt;
+	letter-spacing: -1px;	
+}
+
+/***************   ABOUT IDS  ***************/
+
+#about {
+	background-color: #ff654a;
+	color: #ffffff;
+	height: 1050px;
+	padding-top: 200px;	
+	margin: auto;	
+}
+
+/***************   WORK IDS  ***************/
+
+#work {
+	background-color: #ffffff;
+	height: 850px;
+	padding-top: 200px;
+	margin: auto;
+}
+
+#work .third-width {
+	margin-left: 50px;
+	margin-right: 25px;
+	
+}
+
+/**************   CONTACT IDS  **************/
+
+#contact {
+	background-color: #ff654a;
+	color: #ffffff;	
+	height: 580px;
+}
+
+#contact .full-width {
+	padding-top: 150px;
+}
+
+#hire {
+	float: left;
+	margin-left: 120px;
+	text-align: center;
+	width: 380px;
+}
+
+#social {
+	float: left;
+	text-align: center;
+	width: 380px;
+}
+
+#meet {
+	float: left;
+	text-align: center;
+	width: 380px;
+}
+
+/**********************
+	    FOOTER
+**********************/
+
+footer {
+	background-color: #ff654a;
+	clear: both;
+	height: 50px;
+	padding: 1px;
+}
